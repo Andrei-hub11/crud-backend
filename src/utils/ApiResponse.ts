@@ -22,6 +22,6 @@ export class ApiResponse<T> {
   }
 
   public static error<T>(message: string): ApiResponse<T> {
-    return new ApiResponse(false, null, message);
+    return new ApiResponse<T>(false, null, message);
   }
 }

@@ -76,7 +76,7 @@ npm test
 
 Este projeto usa **GitHub Actions** para seu pipeline de CI. O fluxo de trabalho é definido em `.github/workflows/ci.yml`.
 
-O pipeline de CI é acionado a cada `push` e `pull_request` para a branch `master`. Ele executa os seguintes passos:
+O pipeline de CI é acionado a cada `push` e `pull_request` para a branch `main`. Ele executa os seguintes passos:
 
 1.  Faz o checkout do código do repositório.
 2.  Configura duas versões do Node.js (18.x e 20.x) para garantir a compatibilidade.
